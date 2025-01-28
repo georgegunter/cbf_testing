@@ -219,29 +219,6 @@ include_directories(
 #)
 
 
-catkin_install_python(PROGRAMS scripts/gps2head.py
-DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-)
-catkin_install_python(PROGRAMS scripts/head2vsl.py
-DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-)
-
-catkin_install_python(PROGRAMS scripts/vslmux.py
-DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-)
-
-catkin_install_python(PROGRAMS scripts/vsl2setSpeed.py
-DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-)
-
-catkin_install_python(PROGRAMS scripts/float2twist.py
-DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-)
-
-catkin_install_python(PROGRAMS scripts/middleway.py
-DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-)
-
 catkin_install_python(PROGRAMS scripts/leadVelProcessing.py
 DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
