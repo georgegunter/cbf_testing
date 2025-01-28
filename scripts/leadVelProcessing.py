@@ -278,7 +278,7 @@ def get_box_filtered_radar():
                     dists_in_the_box.append(radar_dist)
                     rel_vels_in_the_box.append(radar_rel_vel)
                 else:
-                    # print('rel vels do not match')
+                    print('rel vels do not match')
 
     if(len(dists_in_the_box)>0):
         mean_box_filtered_radar_dist = np.mean(dists_in_the_box)
