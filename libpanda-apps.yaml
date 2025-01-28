@@ -16,7 +16,6 @@ apps:
           branch_or_hash: test_HO_with_radar
         - owner: jmscslgroup
           repo: velocity_controller
-          branch_or_hash: 3f8a36192d41b7d454e9f787ff61b99f287e3e0d
         - owner: jmscslgroup
           repo: setpointreader
           branch_or_hash: bf9116d7e7a8284527e1d94537de1228c2b3abb8
