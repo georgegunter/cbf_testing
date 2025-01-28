@@ -18,6 +18,5 @@ apps:
           repo: velocity_controller
         - owner: jmscslgroup
           repo: setpointreader
-          branch_or_hash: bf9116d7e7a8284527e1d94537de1228c2b3abb8
         - owner: georgegunter
           repo: cbf_testing
