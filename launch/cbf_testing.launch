@@ -16,6 +16,9 @@
 	<node pkg="margin" type="margin_node" name="margin_node" output="screen" if="$(arg use_margin)">
 	</node>
 
+	<node pkg="disturbance_estimator_ros" type="disturbance_estimator_ros" name="disturbance_estimator_ros" output="screen" required="true" >
+	</node>
+
 	<node pkg="set_point_adapter" type="set_point_adapter" name="set_point_adapter" output="screen" required="true" >
 	</node>
 
